@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(196, 196, 196, 1);
+;
+}
+.wrapper{
+    max-width: 500px;
+    margin: 25% auto;
+}
+
+.search-input{
+
+}
+.wrapper__input{
+    height: 61px;
+    width: 500px;
+    padding-left: 13px;
+}
+
+input[placeholder="Type to search..."] {
+    font-size: 48px;
+}
+::-webkit-input-placeholder {
+   font-size: 48px;
+}
+.wrapper__list{
+    list-style: none;
+    font-size: 30px;
+    background-color: rgba(227, 227, 227, 1);
+}
+.list__element{
+    border: 2px solid #000000;
+    padding-left: 13px;
+    padding-bottom: 9px;
+    padding-top: 0;
+}
+.list__element:hover{
+    background: rgba(101, 205, 249, 1);
+}
+.wrapper__list-selected{
+    list-style: none;
+    font-size: 24px;
+    background: rgba(226, 123, 235, 1);
+    margin-top: 45px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.list__element-selected{
+    display: flex;
+    border: 2px solid #000000;
+    padding-left: 13px;
+    padding-bottom: 9px;
+    padding-top: 0;
+    width: 503px;
+    min-height: 101px;
+    z-index: 1;
+
+}
+.wrapper__list-button {
+    width:42px;
+    height: 39px;
+    align-self: center;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='42.000000pt' height='38.000000pt' viewBox='0 0 42.000000 38.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,38.000000) scale(0.100000,-0.100000)'%0Afill='%23FF0000' stroke='none'%3E%3Cpath d='M14 358 c-4 -6 7 -24 27 -41 19 -17 58 -53 87 -80 l54 -50 -89 -83%0Ac-71 -66 -85 -83 -71 -89 13 -5 39 13 98 67 45 40 85 73 90 73 5 0 45 -33 90%0A-73 59 -54 85 -72 98 -67 14 6 0 23 -71 89 l-89 83 54 50 c29 27 69 64 88 81%0A28 24 32 33 23 43 -14 14 -15 13 -125 -88 -31 -29 -61 -53 -67 -53 -6 0 -48%0A34 -93 75 -45 41 -86 75 -90 75 -4 0 -10 -5 -14 -12z'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgba(226, 123, 235, 1) ;
+    margin-left: auto;
+    margin-right: 34px;
+}
